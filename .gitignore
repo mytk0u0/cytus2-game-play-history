@@ -103,6 +103,7 @@ ENV/
 # FloydHub
 .floydexpt
 .floydignore
+.floyddata
 
 /data/raw/*
 /data/interim/*
