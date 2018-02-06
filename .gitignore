@@ -100,11 +100,15 @@ ENV/
 # mypy
 .mypy_cache/
 
+# pytest
+.pytest_cache/
+
 # FloydHub
 .floydexpt
 .floydignore
 .floyddata
 
+# data directory
 /data/raw/*
 /data/interim/*
 /data/processed/*
