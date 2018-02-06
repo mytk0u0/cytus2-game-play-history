@@ -99,3 +99,12 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+# FloydHub
+.floydexpt
+.floydignore
+
+/data/raw/*
+/data/interim/*
+/data/processed/*
+!.*gitkeep
