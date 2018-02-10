@@ -27,7 +27,7 @@ columns = [
 
 def main() -> None:
     # プレイログはdata/raw内に作成する
-    data_raw_dir = os.path.join(project_dir, 'data', 'raw')
+    data_raw_dir = os.path.join(project_dir, 'data', 'interim')
 
     # プレイログが未作成の場合のみ新規プレイログを作成する
     playlog_path = os.path.join(data_raw_dir, 'playlog.csv')
