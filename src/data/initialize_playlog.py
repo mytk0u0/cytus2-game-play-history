@@ -9,6 +9,7 @@ project_dir = os.path.join(os.path.dirname(__file__), os.pardir, os.pardir)
 
 columns = [
     'datetime',  # 画像保存時のdatetime ("%Y-%m-%d %H:%M:%S"形式)
+    'device',  # デバイス名 (iPhone, iPad)
     'title',  # 曲名
     'difficulty',  # 曲の難易度 (EASY, HARD, CHAOS)
     'level',  # 曲の難易度 (レベル)

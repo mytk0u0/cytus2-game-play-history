@@ -5,7 +5,7 @@ import pytest
 from src.data.initialize_playlog import main
 
 
-class MainTest(object):
+class TestMain(object):
     @mock.patch('os.path.exists', return_value=True)
     def test_do_nothing_when_file_exists(
             self,
